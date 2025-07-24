@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -9,7 +9,7 @@ export default function Navbar() {
         MyPo
       </span>
       <span
-        onClick={() => navigate('/main')}
+        onClick={() => navigate("/main")}
         className="hover:text-yellow-300 transition flex items-center space-x-2 cursor-pointer"
       >
         <img alt="관련 이미지" className="w-6 h-6" />
